@@ -1,0 +1,209 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+body{
+    margin: 0;
+    background-color:  #faf8f9;
+}
+.shopping-bag{
+    padding-left: 97%;
+}
+
+.contenedor-formulario{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: rgb(218, 208, 213);
+    line-height: 45px;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    
+}
+
+.menu-simple-menu ul li a{
+    display: block;
+    flex: 1 0 auto;
+    text-align: center;
+    text-decoration: none; 
+    color: rgb(83, 59, 17);
+    margin-right: 30px; /*espacio entre los elementos*/  
+}
+
+h1{
+    text-align: center;
+    color: #5f4306;
+    font-size: 6em; height: 100 ;
+    font-family:Arial, Helvetica, sans-serif   
+}
+
+p{
+    font-size: 1.5em ; height:100 ;
+    color: #5f4306;
+    padding: 1em;
+    text-align: center;
+}
+
+.back-video{
+    width: 30em;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    padding: 2em;
+    text-align: center;
+    color: #5f4306;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+    padding-top: 1%;
+    padding-bottom: 3%;
+} 
+
+.producto{
+    border-radius: 10px;
+    background-color: #7e6a5c;
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.producto h2{
+    color: #ece5ec ;
+}
+
+.price{
+    background-color: #ece5ec;
+    border-radius:2em;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.productos button{
+    margin: 1%;
+    padding: 1% ;
+    font-size: 1em;
+    background-color: #7e6a5c;
+    border-radius: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.producto:hover{
+    box-shadow: 0 10px 20px rgba(0, 0,0, 20);
+}
+
+
+
+
+footer{
+    margin-top:  20px; ;
+    padding-bottom: 1%;
+    color: rgb(83, 59, 17) ;
+    text-align: center;
+}
+
+/*CONTACTO*/
+
+
+body{
+    background-color:  #faf8f9;
+    padding-top: 1em;
+}
+
+.contenedor-formulario ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(218, 208, 213);
+}
+
+.contenedor-formulario ul li a { 
+    display: block;
+    flex:1 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 59, 17);
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+form{
+    font-size:1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #5f4306;
+    text-align: center;
+}
+
+legend{
+    font-size:x-large;
+    padding-top: auto;
+    padding-bottom: 1em;  
+}
+
+.boton-envio{
+    margin: 1%;
+    padding: 15px;
+    background-color: rgb(218, 208, 213) ; 
+}
+
+.boton{ 
+    font-size: 16px;
+    line-height: 18px;
+    color: #faf8f9;
+    border: none;
+    border-radius: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+/*PREGUNTAS FRECUENTES*/
+
+body{
+    background-color: #faf8f9;
+}
+h1{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-size: 2em;
+
+}
+.conteiner p{
+    padding: 1%;
+    font-size: 1.5em;
+    color: #5f4306;
+    
+
+}
+
+
+

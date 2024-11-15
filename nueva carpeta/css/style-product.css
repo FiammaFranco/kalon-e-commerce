@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  #faf8f9;
+}
+/*Navegador*/
+
+.contenedor-formulario ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(218, 208, 213);
+} 
+    
+
+
+.contenedor-formulario ul li a { 
+    display: block;
+    flex:1 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 59, 17);
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 0'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+
+.buscar-producto{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: #ece5ec;
+    font-size: 1em;
+    line-height: 18px;
+    border: none;
+    margin: .5em;
+    
+   
+}
+.productos{
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    display: grid;
+    line-height: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.productos img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.producto-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #877467;
+
+   
+}
+.producto-content h2{
+    color: #ece5ec;
+    text-align: center;
+
+}
+.producto-content p{
+    height: 8px;
+    padding: 5px ;
+    line-height: 2;
+    gap: 10px;
+    color: #faf8f9;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.producto:hover{
+    box-shadow: 0 10px 20px rgba(0, 0,0, 20);
+
+}
+
+
+.producto img{
+    object-fit: cover;
+    transition: all.5s;
+}
+
+/*BOTON DE AGREGAR AL CARRITO*/
+
+.containedor-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cantidad-label {
+    font-size: 1.20em;
+    color: #d8cdcd;
+}
+
+.input-cantidad {
+    width: 60px;
+    padding: 5px;
+    /*font-size: 1em;*/
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-cantidad:focus {
+    border-color: #e4d7d3;
+    box-shadow: 0 0 5px rgba(175, 157, 151, 0.5);
+}
+
+.add-to-cart-btn {
+    background-color: #e6e3df;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #4a3217;
+    transform: scale(1.05);
+}
+
+.add-to-cart-btn:active {
+    background-color: #705532;
+    transform: scale(0.95);
+}
