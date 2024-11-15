@@ -4,7 +4,7 @@ Este es un proyecto de E-Commerce para una tienda de zapatos. La tienda permite 
 
 ## Demo
 
-El sitio está desplegado en [Netlify](URL_DEL_PROYECTO) (reemplaza `URL_DEL_PROYECTO` con el enlace de tu despliegue en Netlify).
+El sitio está desplegado en [Netlify](https://wonderful-hotteok-2aea38.netlify.app/)
 
 ## Características
 
@@ -18,8 +18,6 @@ Este proyecto fue construido usando las siguientes tecnologías:
 - **HTML5:** Para estructurar el contenido de las páginas.
 - **CSS:** Para el diseño, incluyendo Flexbox y Grid para la disposición de elementos en el layout.
 
-## Instalación
+## Vista Previa
+![Kalon](/nueva%20carpeta/img/Captura%20de%20pantalla_15-11-2024_153225_wonderful-hotteok-2aea38.netlify.app.jpeg)
 
-1. Clona el repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
